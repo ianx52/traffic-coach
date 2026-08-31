@@ -23,13 +23,13 @@
 在支持 Skill 的会话中说：
 
 ```
-帮我安装这个 skill：https://github.com/<你的用户名>/traffic-coach
+帮我安装这个 skill：https://github.com/ianx52/traffic-coach
 ```
 
 **方式二：手动安装**
 
 ```bash
-git clone https://github.com/<你的用户名>/traffic-coach.git
+git clone https://github.com/ianx52/traffic-coach.git
 # 将 traffic-coach/ 目录放入你的 Skills 目录
 ```
 
