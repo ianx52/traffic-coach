@@ -55,7 +55,7 @@ git clone https://github.com/ianx52/traffic-coach.git
 
 ## 边界声明
 
-- 数据基准：2026年8月今日头条新版算法，关键判断建议每季度重新验证
+- **数据基准**：2026年8月今日头条新版算法，具体数字集中在 `references/algorithm.md`，**会过期，建议每季度复核**（方法论在 SKILL.md，不随算法变）
 - 覆盖范围：今日头条图文为主，兼顾微头条；不覆盖短视频、直播、其他平台
 - 本 Skill 不教赛道选择、不教变现、不重写全文
 - 所有建议均附带验证方法，请用真实数据验证后再做决策
@@ -65,7 +65,9 @@ git clone https://github.com/ianx52/traffic-coach.git
 ```
 traffic-coach/
 ├── README.md
-└── SKILL.md    # 流量教练方法论与诊断引擎
+├── SKILL.md                  # 流量教练方法论与诊断引擎（不随算法变）
+└── references/
+    └── algorithm.md          # 算法数据基准（会过期，季度复核）
 ```
 
 ## License
