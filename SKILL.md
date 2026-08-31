@@ -28,7 +28,7 @@ description: |
 type: skill
 created: 2026-08-28
 updated: 2026-09-01
-version: 9.1.0
+version: 9.2.0
 data_baseline: 多平台，各平台数据基准见 references/{toutiao,douyin,wechat}.md，会过期，需季度复核
 ---
 
@@ -526,7 +526,7 @@ data_baseline: 多平台，各平台数据基准见 references/{toutiao,douyin,w
 
 ---
 
-> 版本：9.1.0 | 更新：2026-09-01
+> 版本：9.2.0 | 更新：2026-09-01
 > 架构：薄通用内核（本文件）+ 平台模块（references/toutiao.md、douyin.md、wechat.md）
 > 核心：先定平台 → 审内容（发布前判级）→ 定层级（A单篇/B账号）→ 对应引擎诊断（决策树+背离+置信度）→ 校验目标 → 硬触发复盘 → 迭代赢家。
 > 不变的道：内容与人的匹配 / 数据揭示真相 / 系统奖励一致性 / 算法是平台的利益设计。
